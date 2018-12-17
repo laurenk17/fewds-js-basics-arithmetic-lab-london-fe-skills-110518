@@ -15,7 +15,7 @@ randomInteger = Math.floor(randomNumber)
 
 randomUserID = randomInteger + 1000000000
 
-let ageIsValid;
+const ageIsValid = Number.IsInteger(currentAge);
 // if (Number.IsInteger(currentAge)) {
 //   ageIsValid = true;
 // } else {
