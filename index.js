@@ -15,9 +15,9 @@ randomInteger = Math.floor(randomNumber)
 
 randomUserID = randomInteger + 1000000000
 
-const ageIsValid = Number.isInteger(currentAge);
-// if (Number.IsInteger(currentAge)) {
-//   ageIsValid = true;
-// } else {
-//   ageIsValid = false;
-// }
+// const ageIsValid = Number.isInteger(currentAge);
+if (Number.IsInteger(currentAge)) {
+  ageIsValid = true;
+} else {
+  ageIsValid = false;
+}
